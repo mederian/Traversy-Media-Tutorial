@@ -20,3 +20,10 @@ app.use('/api/users', require('./routes/userRoutes'))
 app.use(errorHandler)
 
 app.listen(port, () => console.log(`server started on port  ${port}`))
+
+/*
+NODE_ENV = develpment
+PORT = 5000
+MONGO_URI = mongodb+srv://olemsn:1ostePaven1@olemsncluster.ybszmux.mongodb.net/mernapp?retryWrites=true&w=majority
+JWT_SECRET = abc123
+*/
